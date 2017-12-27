@@ -3,14 +3,14 @@ var Gdax = require('gdax')
 module.exports = function container (get, set, clear) {
   var c = get('conf')
 
-  var public_client = {}, authed_client, websocket_client = null, websocket_cache = {}
+  var public_client, authed_client, websocket_client, websocket_cache = {}
 
   function publicClient (product_id) {
-    if (!public_client[product_id]) {
-      websocketClient(product_id)
-      public_client[product_id] = new Gdax.PublicClient(product_id, c.gdax.apiURI)
+    websocketClient(product_id)
+    if (!public_client) {
+      public_client = new Gdax.PublicClient(c.gdax.apiURI)
     }
-    return public_client[product_id]
+    return public_client
   }
 
   function websocketClient (product_id) {
@@ -141,7 +141,7 @@ module.exports = function container (get, set, clear) {
         cache.trade_ids = cache.trade_ids.slice(fromIndex)
         return
       }
-      client.getProductTrades(args, function (err, resp, body) {
+      client.getProductTrades(opts.product_id, args, function (err, resp, body) {
         if (!err) err = statusErr(resp, body)
         if (err) return retry('getTrades', func_args, err)
         var trades = body.map(function (trade) {
@@ -198,7 +198,7 @@ module.exports = function container (get, set, clear) {
       }
       var func_args = [].slice.call(arguments)
       var client = publicClient(opts.product_id)
-      client.getProductTicker(function (err, resp, body) {
+      client.getProductTicker(opts.product_id, function (err, resp, body) {
         if (!err) err = statusErr(resp, body)
         if (err) return retry('getQuote', func_args, err)
         if (body.bid || body.ask)
