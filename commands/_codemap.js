@@ -13,6 +13,7 @@ module.exports = {
   'sell': require('./sell'),
   'ohlc': require('./ohlc'),
   'chart': require('./chart'),
+  'ohlcout': require('./ohlcout'),
 
   'list[20]': '#commands.list-selectors',
   'list[30]': '#commands.list-strategies',
@@ -24,5 +25,6 @@ module.exports = {
   'list[80]': '#commands.buy',
   'list[90]': '#commands.sell',
   'list[99]': '#commands.ohlc',
-  'list[99]': '#commands.chart'
+  'list[99]': '#commands.chart',
+  'list[99]': '#commands.ohlcout'
 }
