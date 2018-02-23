@@ -1,0 +1,502 @@
+[
+  {
+    "asset": "BTC",
+    "currency": "USD",
+    "label": "bitcoin/USD"
+  },
+  {
+    "asset": "ETH",
+    "currency": "USD",
+    "label": "ethereum/USD"
+  },
+  {
+    "asset": "XRP",
+    "currency": "USD",
+    "label": "ripple/USD"
+  },
+  {
+    "asset": "BCH",
+    "currency": "USD",
+    "label": "bitcoin-cash/USD"
+  },
+  {
+    "asset": "LTC",
+    "currency": "USD",
+    "label": "litecoin/USD"
+  },
+  {
+    "asset": "ADA",
+    "currency": "USD",
+    "label": "cardano/USD"
+  },
+  {
+    "asset": "NEO",
+    "currency": "USD",
+    "label": "neo/USD"
+  },
+  {
+    "asset": "XLM",
+    "currency": "USD",
+    "label": "stellar/USD"
+  },
+  {
+    "asset": "EOS",
+    "currency": "USD",
+    "label": "eos/USD"
+  },
+  {
+    "asset": "DASH",
+    "currency": "USD",
+    "label": "dash/USD"
+  },
+  {
+    "asset": "MIOTA",
+    "currency": "USD",
+    "label": "iota/USD"
+  },
+  {
+    "asset": "XMR",
+    "currency": "USD",
+    "label": "monero/USD"
+  },
+  {
+    "asset": "XEM",
+    "currency": "USD",
+    "label": "nem/USD"
+  },
+  {
+    "asset": "ETC",
+    "currency": "USD",
+    "label": "ethereum-classic/USD"
+  },
+  {
+    "asset": "VEN",
+    "currency": "USD",
+    "label": "vechain/USD"
+  },
+  {
+    "asset": "TRX",
+    "currency": "USD",
+    "label": "tron/USD"
+  },
+  {
+    "asset": "LSK",
+    "currency": "USD",
+    "label": "lisk/USD"
+  },
+  {
+    "asset": "USDT",
+    "currency": "USD",
+    "label": "tether/USD"
+  },
+  {
+    "asset": "BTG",
+    "currency": "USD",
+    "label": "bitcoin-gold/USD"
+  },
+  {
+    "asset": "QTUM",
+    "currency": "USD",
+    "label": "qtum/USD"
+  },
+  {
+    "asset": "OMG",
+    "currency": "USD",
+    "label": "omisego/USD"
+  },
+  {
+    "asset": "ICX",
+    "currency": "USD",
+    "label": "icon/USD"
+  },
+  {
+    "asset": "NANO",
+    "currency": "USD",
+    "label": "nano/USD"
+  },
+  {
+    "asset": "ZEC",
+    "currency": "USD",
+    "label": "zcash/USD"
+  },
+  {
+    "asset": "BNB",
+    "currency": "USD",
+    "label": "binance-coin/USD"
+  },
+  {
+    "asset": "XVG",
+    "currency": "USD",
+    "label": "verge/USD"
+  },
+  {
+    "asset": "STEEM",
+    "currency": "USD",
+    "label": "steem/USD"
+  },
+  {
+    "asset": "BCN",
+    "currency": "USD",
+    "label": "bytecoin-bcn/USD"
+  },
+  {
+    "asset": "PPT",
+    "currency": "USD",
+    "label": "populous/USD"
+  },
+  {
+    "asset": "DOGE",
+    "currency": "USD",
+    "label": "dogecoin/USD"
+  },
+  {
+    "asset": "STRAT",
+    "currency": "USD",
+    "label": "stratis/USD"
+  },
+  {
+    "asset": "SC",
+    "currency": "USD",
+    "label": "siacoin/USD"
+  },
+  {
+    "asset": "RHOC",
+    "currency": "USD",
+    "label": "rchain/USD"
+  },
+  {
+    "asset": "WAVES",
+    "currency": "USD",
+    "label": "waves/USD"
+  },
+  {
+    "asset": "SNT",
+    "currency": "USD",
+    "label": "status/USD"
+  },
+  {
+    "asset": "MKR",
+    "currency": "USD",
+    "label": "maker/USD"
+  },
+  {
+    "asset": "DGD",
+    "currency": "USD",
+    "label": "digixdao/USD"
+  },
+  {
+    "asset": "BTS",
+    "currency": "USD",
+    "label": "bitshares/USD"
+  },
+  {
+    "asset": "AE",
+    "currency": "USD",
+    "label": "aeternity/USD"
+  },
+  {
+    "asset": "WTC",
+    "currency": "USD",
+    "label": "waltonchain/USD"
+  },
+  {
+    "asset": "DCR",
+    "currency": "USD",
+    "label": "decred/USD"
+  },
+  {
+    "asset": "REP",
+    "currency": "USD",
+    "label": "augur/USD"
+  },
+  {
+    "asset": "ZCL",
+    "currency": "USD",
+    "label": "zclassic/USD"
+  },
+  {
+    "asset": "VERI",
+    "currency": "USD",
+    "label": "veritaseum/USD"
+  },
+  {
+    "asset": "ZRX",
+    "currency": "USD",
+    "label": "0x/USD"
+  },
+  {
+    "asset": "R",
+    "currency": "USD",
+    "label": "revain/USD"
+  },
+  {
+    "asset": "ETN",
+    "currency": "USD",
+    "label": "electroneum/USD"
+  },
+  {
+    "asset": "HSR",
+    "currency": "USD",
+    "label": "hshare/USD"
+  },
+  {
+    "asset": "ARDR",
+    "currency": "USD",
+    "label": "ardor/USD"
+  },
+  {
+    "asset": "KMD",
+    "currency": "USD",
+    "label": "komodo/USD"
+  },
+  {
+    "asset": "KCS",
+    "currency": "USD",
+    "label": "kucoin-shares/USD"
+  },
+  {
+    "asset": "ARK",
+    "currency": "USD",
+    "label": "ark/USD"
+  },
+  {
+    "asset": "GAS",
+    "currency": "USD",
+    "label": "gas/USD"
+  },
+  {
+    "asset": "BAT",
+    "currency": "USD",
+    "label": "basic-attention-token/USD"
+  },
+  {
+    "asset": "DRGN",
+    "currency": "USD",
+    "label": "dragonchain/USD"
+  },
+  {
+    "asset": "ZIL",
+    "currency": "USD",
+    "label": "zilliqa/USD"
+  },
+  {
+    "asset": "BTM",
+    "currency": "USD",
+    "label": "bytom/USD"
+  },
+  {
+    "asset": "DGB",
+    "currency": "USD",
+    "label": "digibyte/USD"
+  },
+  {
+    "asset": "LRC",
+    "currency": "USD",
+    "label": "loopring/USD"
+  },
+  {
+    "asset": "SYS",
+    "currency": "USD",
+    "label": "syscoin/USD"
+  },
+  {
+    "asset": "CNX",
+    "currency": "USD",
+    "label": "cryptonex/USD"
+  },
+  {
+    "asset": "MONA",
+    "currency": "USD",
+    "label": "monacoin/USD"
+  },
+  {
+    "asset": "ELF",
+    "currency": "USD",
+    "label": "aelf/USD"
+  },
+  {
+    "asset": "POLY",
+    "currency": "USD",
+    "label": "polymath-network/USD"
+  },
+  {
+    "asset": "DENT",
+    "currency": "USD",
+    "label": "dent/USD"
+  },
+  {
+    "asset": "QASH",
+    "currency": "USD",
+    "label": "qash/USD"
+  },
+  {
+    "asset": "NAS",
+    "currency": "USD",
+    "label": "nebulas-token/USD"
+  },
+  {
+    "asset": "KNC",
+    "currency": "USD",
+    "label": "kyber-network/USD"
+  },
+  {
+    "asset": "AION",
+    "currency": "USD",
+    "label": "aion/USD"
+  },
+  {
+    "asset": "PIVX",
+    "currency": "USD",
+    "label": "pivx/USD"
+  },
+  {
+    "asset": "DCN",
+    "currency": "USD",
+    "label": "dentacoin/USD"
+  },
+  {
+    "asset": "RDD",
+    "currency": "USD",
+    "label": "reddcoin/USD"
+  },
+  {
+    "asset": "GNT",
+    "currency": "USD",
+    "label": "golem-network-tokens/USD"
+  },
+  {
+    "asset": "BTX",
+    "currency": "USD",
+    "label": "bitcore/USD"
+  },
+  {
+    "asset": "GBYTE",
+    "currency": "USD",
+    "label": "byteball/USD"
+  },
+  {
+    "asset": "ETHOS",
+    "currency": "USD",
+    "label": "ethos/USD"
+  },
+  {
+    "asset": "GXS",
+    "currency": "USD",
+    "label": "gxshares/USD"
+  },
+  {
+    "asset": "FCT",
+    "currency": "USD",
+    "label": "factom/USD"
+  },
+  {
+    "asset": "IOST",
+    "currency": "USD",
+    "label": "iostoken/USD"
+  },
+  {
+    "asset": "LINK",
+    "currency": "USD",
+    "label": "chainlink/USD"
+  },
+  {
+    "asset": "FUN",
+    "currency": "USD",
+    "label": "funfair/USD"
+  },
+  {
+    "asset": "POWR",
+    "currency": "USD",
+    "label": "power-ledger/USD"
+  },
+  {
+    "asset": "CND",
+    "currency": "USD",
+    "label": "cindicator/USD"
+  },
+  {
+    "asset": "XZC",
+    "currency": "USD",
+    "label": "zcoin/USD"
+  },
+  {
+    "asset": "SALT",
+    "currency": "USD",
+    "label": "salt/USD"
+  },
+  {
+    "asset": "PLR",
+    "currency": "USD",
+    "label": "pillar/USD"
+  },
+  {
+    "asset": "NXT",
+    "currency": "USD",
+    "label": "nxt/USD"
+  },
+  {
+    "asset": "REQ",
+    "currency": "USD",
+    "label": "request-network/USD"
+  },
+  {
+    "asset": "KIN",
+    "currency": "USD",
+    "label": "kin/USD"
+  },
+  {
+    "asset": "PART",
+    "currency": "USD",
+    "label": "particl/USD"
+  },
+  {
+    "asset": "BNT",
+    "currency": "USD",
+    "label": "bancor/USD"
+  },
+  {
+    "asset": "ENG",
+    "currency": "USD",
+    "label": "enigma-project/USD"
+  },
+  {
+    "asset": "MAID",
+    "currency": "USD",
+    "label": "maidsafecoin/USD"
+  },
+  {
+    "asset": "NEBL",
+    "currency": "USD",
+    "label": "neblio/USD"
+  },
+  {
+    "asset": "SMART",
+    "currency": "USD",
+    "label": "smartcash/USD"
+  },
+  {
+    "asset": "PAY",
+    "currency": "USD",
+    "label": "tenx/USD"
+  },
+  {
+    "asset": "VTC",
+    "currency": "USD",
+    "label": "vertcoin/USD"
+  },
+  {
+    "asset": "RDN",
+    "currency": "USD",
+    "label": "raiden-network-token/USD"
+  },
+  {
+    "asset": "EMC",
+    "currency": "USD",
+    "label": "emercoin/USD"
+  },
+  {
+    "asset": "BLOCK",
+    "currency": "USD",
+    "label": "blocknet/USD"
+  }
+]

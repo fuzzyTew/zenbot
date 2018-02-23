@@ -8,5 +8,6 @@ module.exports = {
   'periods': require('./periods'),
   'resume_markers': require('./resume_markers'),
   'sessions': require('./sessions'),
-  'trades': require('./trades')
+  'trades': require('./trades'),
+  'ohlc': require('./ohlc')
 }
